@@ -1,7 +1,14 @@
-package TugasKelasObjek;
+package Tugas_03;
 
 public class Student {
-    private String nrp;
+	private String nrp;
+	  public String getNrp() {
+	        return nrp;
+	    }
+
+	    public void setNrp(String nrp) {
+	    	this.nrp = nrp;
+	    }
 
     public static void main(String[] args) {
         Student x = new Student();
@@ -16,12 +23,6 @@ public class Student {
         System.out.println(y.getNrp());
     }
 
-    public String getNrp() {
-        return nrp;
-    }
-
-    public void setNrp(String nrp) {
-        this.nrp = nrp;
-    }
 }
+
 
